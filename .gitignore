@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS Finder files
+.DS_Store
+
+# VSCode workspace settings
+.vscode/
+
+# JetBrains IDE settings
+.idea/
+
+# Local environment / secrets
+.env
+.env.local
+
+# Jupyter checkpoints (you already have this, but just in case)
+.ipynb_checkpoints/
+
+# Data you pull or generate that isn’t worth checking in
+data/
+raw_data/
+output/
+
+# Notebook export files (if you ever export to html/pdf)
+*.html
+*.pdf
+
+# Logs or temp files you might create
+*.log
+tmp/
